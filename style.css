@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.con{
+    background-color: #1C1814;
+    height: auto;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+del{
+    color: #ffff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+a:hover{
+    color: rgba(255, 255, 255, 0.452);
+}
+
+i{
+    color: #ffff;
+    font-size: 18px;
+}
+.header{
+    padding: 150px 0;
+    background-image: url("./img/Rectangle\ 12.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 140px;
+}
+.header-text{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-text h1{
+    width: 529px;
+    font-size: 72px;
+    font-weight: 400;
+    color: #ffff;
+    font-family: "Righteous", sans-serif;
+}
+p{
+    margin: 32px 0 64px 0;
+}
+.header-text p{
+    color: #ffff;
+    width: 511px;
+    font-family: "Urbanist", sans-serif;
+}
+.header-text button{
+    width: 202px;
+    height: 70px;
+    padding: 24px 40px 24px 40px;
+    color: #ffff;
+    background-color: #C99E71;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.menu{
+    width: 1198px;
+    height: auto;
+    display: flex;
+    gap: 64px;
+    margin: 0 auto;
+}
+.menu-box{
+    width: 370px;
+    height: 475px; 
+}
+.color{
+    color: #C99E71;
+}
+.menu-text{
+    width: 366px;
+    height: 10%;
+    display: flex;
+    gap: 12px;
+    font-family: "Righteous", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.menu-img{
+    width: 366px;
+    height: 80%;
+}
+.info{
+    margin: 140px 0;
+    display: flex;
+    gap: 32px;
+    
+}
+.one{
+    width: 298px;
+}
+.imgs{
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+.imgs img{
+    width: 298px;
+    height: 302px;
+}
+.two img{
+    width: 298px;
+    height: 635px;
+}
+.three{
+    width: 510px;
+    height: 635px;
+    background-color: #624c371b;
+    padding: 120px 56px 147px 56px;
+}
+.text0{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text1{
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    width: 398px;
+    margin: 12px 0 36px 0;
+}
+.text2{
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    width: 395px;
+    color: #ffffff65;
+    text-align: left;
+}
+.name{
+    margin: 140px 0 56px 0;
+    text-align: center;
+}
+.first p{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.second h1{
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.rating{
+    display: flex;
+    gap: 36px;
+    /* height: 800px; */
+}
+.rating-box1{
+    width: 366px;
+    height: 579px;
+    background-color: #121315;
+    padding: 48px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.rating1-img img{
+    width: 270px;
+    height: 343px;
+}
+.rating1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.rating1-text h1{
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.shopping-button{
+    width: 169px;
+    height: 48px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C99E71;
+    margin: 0 auto;
+
+}
+.shopping-button button{
+    background-color: transparent;
+    border: none;
+}
+.shopping-button i{
+    font-size: 24px;
+}
+button{
+    font-size: 18px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    color: #ffff;
+}
+.rating-box2{
+    width: 366px;
+    height: 579px;
+    background-color: #121315;
+    padding: 48px 48px 40px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.rating2-text{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+    height: 115px;
+}
+.first-text {
+    display: flex;
+    height: 20px;
+    gap: 4px;
+    display: flex;  
+    justify-content: center;
+}
+.p{
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.p i{
+    font-size: 17px;
+    text-align: center;
+    color: #C99E71;
+}
+.rating2-text h1{
+    font-family: "Righteous", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center; 
+}
+.second-text{
+    display: flex;
+    justify-content: center;
+    height: 22px;
+}
+.second-text p,p,del{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center; 
+    margin-top: 0;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 56px 0px 140px 0px;
+}
+.button button{
+    background-color: #C99E71;
+    width: 252px;
+    height: 62px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 36px 20px 36px;
+}
+.blender{
+    width: 1170px;
+    height: 550px;
+    padding: 72px 80px 84px 169px;
+    background-color: #624c371b;
+    display: flex;
+    gap: 160px;
+}
+.blender-img{
+    /* width: 226px; */
+    width: auto;
+    height: 400px;
+}
+.blender-img img{
+    width: 100%;
+    height: 100%;
+}
+.blender-text{
+    width: 535px;
+    height: 374px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.blender-text h1{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+.blender-text p{
+    color: #ffffff65;
+    text-align: left;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;    
+    font-size: 16px;
+}
+.blender-text button{
+    width: 215px;
+    height: 62px;
+    background-color: #C99E71;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    padding: 20px 36px 20px 36px;
+}
+.big-menu{
+    display: flex;
+    gap: 40px;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.background-transparent{
+    width: 565px;
+    height: 120px;
+    display: flex;
+    gap: 20px;
+    padding: 24px;
+    background-color: transparent;
+    border: 1px solid white;
+    align-items: center;
+}
+
+.menu2-img{
+    width: 72px;
+    height: 72px;
+}
+.menu2-img img{
+    width: 100%;
+    height: 100%;
+}
+.menu2-text{
+    width: 425px;
+    height: 30px;
+    display: flex;
+    gap: 115px;
+    /* align-items: center; */
+}
+.nick{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.prs{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;    
+    font-size: 18px;
+}
+.coment{
+    display: flex;
+    gap: 40px;
+}
+.coment1,
+.coment2{
+    width: 565px;
+    height: 305px;
+    padding: 40px 40px 37px 40px;
+    background-color: #624c371b;
+    display: flex;
+    flex-direction: column;
+}
+.first-sec{
+    display: flex;
+    gap: 24px;
+}
+.coment-img{
+   width: 129px;
+   height: 149px; 
+}
+.coment-img img{
+    width: 100%;
+    height: 100%;
+}
+.coment-text{
+    width: 332px;
+}
+.com-text{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;    
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    line-height: 29px;
+}
+.second-sec{
+    display: flex;
+    
+    gap: 261px;
+}
+.sender{
+    display: flex;
+    flex-direction: column;
+    margin-top: -28px;
+}
+.sender-name{
+    text-align: left;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;    
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.sender-job{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;    
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+    width: 108px;
+}
+.rating-stars{
+    width: 116px;
+    margin-top: -5px;
+    margin-left: -10px;
+
+}
+.rating-stars i{
+    font-size: 16px;
+    align-items: end;
+    color: yellow;
+}
+.tools{
+    margin-top: 36px;
+    display: flex;
+    gap: 922px;
+    /* justify-content: space-between; */
+}
+.left-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.slide{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;    
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+.slide img{
+    line-height: 4px;
+    width: 120px;
+    height: 4px;
+}
+.right-column{
+    display: flex;
+    gap: 16px;
+}
+.for{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+}
+.left{
+    background-color: rgba(18, 19, 21, 1);
+    color: #ffff;
+}
+.right{
+    background-color: #C99E71;
+}
+.right i{
+    color: rgba(1, 1, 2, 1);
+
+}
+.location{
+    margin-top: 140px;
+    display: flex;
+    width: 1170px;
+    height: 652px;
+}
+.reservation{
+    width: 585px;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 56px;
+    padding: 72px 48px 72px 48px;
+    background-color: #624c371b;
+}
+.name-r{
+    text-align: center;
+}
+.first p{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.second h1{
+    font-family: "Righteous", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+.details{
+    width: 489px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.black{
+    border: none;
+    width: 489px;
+    height: 64px;
+    background-color: rgba(20, 17, 14, 1);
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+    padding: 20px 0 16px 20px;
+    color: #ffff;
+    outline: none;
+}
+.black p{
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.reservation button{
+    width: 215px;
+    height: 62px;
+    background-color: #C99E71;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    padding: 20px 36px 20px 36px;
+}
+.r-button{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.news{
+    display: flex;
+    gap: 36px;
+}
+.news1{
+    width: 366px;
+    height: 528px;
+    background-color: #624c371b;
+}
+.news1 img{
+    width: 366px;
+    height: 360px;
+}
+.text-n{
+    max-width: 366px;
+    max-height: 168px;
+    padding: 20px 24px 24px 24px;
+}
+.texts1{
+    display: flex;
+    gap: 149px;
+}
+.By{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.by{
+    color: #ffff;
+}
+.data{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.h{
+    font-family: "Righteous", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -50px; 
+}
+.texts2{
+    margin-top: 30px;
+    text-align-last: left;
+    display: flex;
+    gap: 9px;
+}
+.texts2 i{
+    margin-top: 4px;
+    color: #C99E71;
+}
+.texts2 p{
+    color: #C99E71;
+}
+.footer-menu{
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: row;
+    width: 1169px;
+    height: 72px;
+}
+.f-menu{
+    margin-top: 140px;
+    /* min-width: 759px; */
+    /* min-height: 60px; */
+    display: flex;
+    gap: 36px;
+}
+
+.f-menu ul li a{
+    text-decoration: none;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.registration{
+    width: 328px;
+    height: 72px;
+    border: none;
+    color: #ffff;
+    background-color: #624c371b;
+    border-radius: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+    transform: translate(850px,-70px);
+}
+.r-inp{
+    width: 260px;
+    height: 72px;
+    border: none;
+    border-color: none ;
+    color: #ffff;
+    background-color: transparent;
+    border-radius: 36px;
+    padding: 21px 0 22px 28px;
+    outline: none;
+}
+.continue{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    background-color: #C99E71;
+}
+.footer{
+    margin: 0 auto;
+    width: 1520px;
+    height: 90px;
+    background-color: #624c371b;
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    transform: translate(0px,35px);
+}
